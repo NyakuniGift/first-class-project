@@ -7,3 +7,6 @@ def celcius_to_fahrenheit(celcius_temp):
     """
 
     return (celcius_temp * 9/5) + 32
+
+def fahrenheit_to_celcius(fahrenheit_temp):
+    return (fahrenheit_temp - 32) *  5/9
